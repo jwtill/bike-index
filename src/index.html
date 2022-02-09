@@ -1,10 +1,21 @@
 <html lang="en-US">
 <head>
-  <title>************</title>
+  <title>Bike Index</title>
 </head>
 <body>
   <div class="container">
-    
+    <h1>Stolen Bikes</h1>
+    <form id="user-input">
+      <div class="form-group">
+      <label for="city">Enter City</label>
+      <input type="text" name="city" id="city">
+      <button type="submit">See stolen bikes in the last week</button>
+      </div>
+    </form>
+    <div class="hidden" id="results">
+      <div id="showDate"></div><br>
+      <div id="showTitle"></div>
+    </div>
   </div>
 </body>
 </html>
